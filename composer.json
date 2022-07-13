@@ -1,0 +1,22 @@
+{
+    "name": "mizi/dimage",
+    "description": "Tratamento de imagens com PHP GD",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "class/"
+        },
+        "files": [
+            "./source/helper/function/color.php"
+        ]
+    },
+    "require": {
+        "mizi/server-back": "^1.0"
+    }
+}
