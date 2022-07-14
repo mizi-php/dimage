@@ -17,6 +17,7 @@
         ]
     },
     "require": {
-        "mizi/server-back": "^1.0"
+        "mizi/server-back": "^1.0",
+        "ext-gd": "*"
     }
 }
