@@ -25,7 +25,7 @@ trait TraitDImageInit
     protected string $name;
 
     /** Caminho fisico da imagem */
-    protected string $path;
+    protected string $path = '.';
 
     protected function __construct()
     {
